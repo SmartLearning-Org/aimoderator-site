@@ -256,8 +256,6 @@ html{scroll-padding-top:var(--header-content-height)}
 .inquiry-dialogue{height:96px;height:clamp(76px,22cqw,108px);border-radius:12px 12px 0 12px;background:var(--lime)}
 .inquiry-question{border:2px solid var(--purple);background:var(--paper);font-size:52px;font-size:clamp(42px,12cqw,58px)}
 .inquiry-sign{font-family:var(--font);font-size:24px;line-height:1;text-align:center}
-.inquiry-experiment figcaption{margin-top:28px;font-family:var(--serif);font-size:36px;font-size:clamp(30px,9cqw,40px);line-height:1.15;letter-spacing:-.02em;text-align:center}
-.inquiry-experiment figcaption::after{content:"";display:block;width:60px;height:4px;border-radius:2px;background:currentColor;margin:20px auto 0}
 @container (max-width:360px){
   .inquiry-equation{grid-template-columns:minmax(0,1fr) 14px minmax(0,1.5fr) 14px minmax(0,1fr);gap:5px}
   .inquiry-term{font-size:23px}
