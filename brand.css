@@ -246,3 +246,22 @@ html{scroll-padding-top:var(--header-content-height)}
 .contact-section,.contact-inner{align-items:start}
 @media(max-width:800px){.section,.contact-section{padding-top:32px}}
 @media(max-width:540px){.section,.contact-section{padding-top:28px}}
+
+/* An open experiment: AI + dialogue leaves the learning outcome open to inquiry. */
+.inquiry-experiment{container-type:inline-size;max-width:475px;margin:34px 0 0;color:var(--purple)}
+.inquiry-equation{display:grid;grid-template-columns:minmax(0,1fr) 20px minmax(0,1.6fr) 20px minmax(0,1fr);align-items:center;gap:10px}
+.inquiry-term{display:flex;align-items:center;justify-content:center;min-width:0;font-family:var(--serif);font-size:34px;font-size:clamp(24px,8cqw,38px);line-height:1}
+.inquiry-ai,.inquiry-question{width:100%;aspect-ratio:1;border-radius:50%}
+.inquiry-ai{background:var(--mint)}
+.inquiry-dialogue{height:96px;height:clamp(76px,22cqw,108px);border-radius:12px 12px 0 12px;background:var(--lime)}
+.inquiry-question{border:2px solid var(--purple);background:var(--paper);font-size:52px;font-size:clamp(42px,12cqw,58px)}
+.inquiry-sign{font-family:var(--font);font-size:24px;line-height:1;text-align:center}
+.inquiry-experiment figcaption{margin-top:28px;font-family:var(--serif);font-size:36px;font-size:clamp(30px,9cqw,40px);line-height:1.15;letter-spacing:-.02em;text-align:center}
+.inquiry-experiment figcaption::after{content:"";display:block;width:60px;height:4px;border-radius:2px;background:currentColor;margin:20px auto 0}
+@container (max-width:360px){
+  .inquiry-equation{grid-template-columns:minmax(0,1fr) 14px minmax(0,1.5fr) 14px minmax(0,1fr);gap:5px}
+  .inquiry-term{font-size:23px}
+  .inquiry-question{font-size:43px}
+  .inquiry-sign{font-size:20px}
+}
+@media print{.inquiry-experiment{display:none}}
