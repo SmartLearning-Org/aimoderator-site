@@ -1,0 +1,67 @@
+1
+00:00:00,860 --> 00:00:04,369
+AI Moderator supports live academic discussions.
+
+2
+00:00:04,498 --> 00:00:09,473
+Administrators define how the moderator
+supports learning across activities.
+
+3
+00:00:09,547 --> 00:00:14,477
+Start in People, where you create
+teacher accounts and organise access.
+
+4
+00:00:14,551 --> 00:00:17,684
+Next, prepare shared moderation profiles.
+
+5
+00:00:17,814 --> 00:00:21,412
+Give each profile a clear purpose,
+such as comparing evidence
+
+6
+00:00:21,452 --> 00:00:24,301
+or exploring contrasting perspectives.
+
+7
+00:00:24,375 --> 00:00:29,123
+Set the learning objective, discussion
+rules and conversation language.
+
+8
+00:00:29,197 --> 00:00:34,227
+Choose whether automatic moderation publishes
+contributions, records decisions for
+
+9
+00:00:34,267 --> 00:00:36,991
+observation, or is switched off.
+
+10
+00:00:37,066 --> 00:00:40,562
+Participation and timing
+settings shape when support is
+
+11
+00:00:40,602 --> 00:00:43,633
+considered, including planned pauses.
+
+12
+00:00:43,706 --> 00:00:48,636
+Teachers then select a profile for
+their dialogue and set up the activity.
+
+13
+00:00:48,710 --> 00:00:52,581
+Together, administrators and
+teachers determine how much, how and
+
+14
+00:00:52,621 --> 00:00:54,799
+when the moderator participates.
+
+15
+00:00:55,054 --> 00:00:58,460
+Students develop and discuss their own ideas.

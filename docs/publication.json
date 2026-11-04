@@ -1,0 +1,16 @@
+{
+  "source_revision": "2026-11-04 section-spacing",
+  "tested_preview": "https://smartlearning-ai-moderator-preview.netlify.app/",
+  "tested_netlify_deploy": "6aead8468450a2db8222309f",
+  "previous_main_commit": "6300d4db95772c7f10ef566647b6e5b27d01d037",
+  "backup_branch": "backup/before-website-update-2026-11-04",
+  "production_domain": "https://aimoderator.online/",
+  "production_adjustments": [
+    "Static files placed at repository root to match the existing GitHub Pages configuration.",
+    "Existing CNAME preserved.",
+    "Preview-only noindex directives removed; robots.txt allows crawling.",
+    "Canonical and Open Graph URL point to aimoderator.online.",
+    ".nojekyll added for static serving."
+  ],
+  "visual_and_application_files_unchanged": true
+}

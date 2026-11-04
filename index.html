@@ -1,617 +1,96 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>AI Moderator - Join the Testing</title>
-    <meta
-      name="description"
-      content="AI-powered dialogue platform that encourages active participation, respectful interactions, and deeper learning"
-    />
-    <meta name="keywords" content="AI Moderator" />
-
-    <!-- Favicons -->
-    <link href="assets/img/favi.png" rel="icon" />
-
-
-    <!-- Vendor CSS Files -->
-    <link
-      href="assets/vendor/bootstrap/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
-      rel="stylesheet"
-    />
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
-
-    <!-- Main CSS File -->
-    <link href="assets/css/main.css" rel="stylesheet" />
-  </head>
-
-  <body class="index-page">
-    <header id="header" class="header d-flex align-items-center sticky-top">
-      <div
-        class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between"
-      >
-        <a
-          href="index.html"
-          class="logo d-flex align-items-center me-auto me-xl-0"
-        >
-          <h1 class="sitename">AI Moderator</h1>
-        </a>
-
-        <nav id="navmenu" class="navmenu">
-          <ul>
-            <li><a href="#hero" class="active">Home</a></li>
-            <li><a href="#services">Benefits</a></li>
-            <li><a href="#contact">Join the Beta</a></li>
-            <li><a href="#aboutus">About</a></li>
-          </ul>
-          <button type="button" class="mobile-nav-toggle d-xl-none bi bi-list" aria-label="Toggle mobile navigation" aria-expanded="false"></button>
-        </nav>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Educator-designed AI moderation for synchronous and asynchronous academic dialogue. Explore AI Moderator with your university or learning lab.">
+  <link rel="canonical" href="https://aimoderator.online/">
+  <meta property="og:url" content="https://aimoderator.online/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="AI Moderator — More thinking. Together.">
+  <meta property="og:description" content="Educators shape the moderation. Students explore ideas through synchronous or asynchronous dialogue. A research-informed beta for higher education.">
+  <title>AI Moderator — More thinking. Together.</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/fonts.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="brand.css?v=section-spacing-20261104">
+  <script src="app.js?v=anchor-font-ready-20261104" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner wrap">
+      <a class="brand" href="#top" aria-label="AI Moderator home"><svg class="angle-mark" viewBox="0 0 30.992 19.843" aria-hidden="true"><path d="m.89,12.115c-1.187-1.187-1.187-3.111,0-4.297L7.818.89c1.186-1.186,3.109-1.186,4.295,0l.002.002c1.186,1.186,1.186,3.109,0,4.295l-4.779,4.779,4.69,4.69c1.186,1.186,1.186,3.109,0,4.295l-.002.002c-1.186,1.186-3.109,1.186-4.295,0L.89,12.115Z"/><path d="m30.102,12.115c1.187-1.187,1.187-3.111,0-4.297L23.175.89c-1.186-1.186-3.109-1.186-4.295,0l-.002.002c-1.186,1.186-1.186,3.109,0,4.295l4.779,4.779-4.69,4.69c-1.186,1.186-1.186,3.109,0,4.295l.002.002c1.186,1.186,3.109,1.186,4.295,0l6.838-6.838Z"/></svg><span>AI Moderator</span></a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="navigation" hidden><span>Menu</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h16M4 16h16"/></svg></button>
+      <nav id="navigation" aria-label="Main navigation">
+        <a href="#approach">The approach</a><a href="#in-practice">In practice</a><a href="#collaboration">Collaboration</a><a class="nav-contact" href="#contact">Let’s talk <span class="arrow-slot" aria-hidden="true"><svg class="arrow-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></span></a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero wrap" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> A beta for higher education</p>
+        <h1 id="hero-title">More thinking. <br><em>Together.</em></h1>
+        <p class="hero-lead">AI-supported dialogue, synchronously or asynchronously.</p>
+        <p class="hero-description">You decide how much, how and when the moderator participates. Teachers choose the approach and design the discussion activity.</p>
+        <div class="hero-actions"><a class="button button-dark" href="#contact">Explore a trial <span class="arrow-slot" aria-hidden="true"><svg class="arrow-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></span></a><a class="text-link" href="#in-practice">See how it works <span class="arrow-slot" aria-hidden="true"><svg class="arrow-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 4v16m-7-7 7 7 7-7"/></svg></span></a></div>
+        <p class="hero-note">For universities, learning labs and teaching &amp; learning teams.</p>
       </div>
-    </header>
+      <figure class="hero-art" aria-label="Illustrative moments from a longer student discussion, including a possible moderator question">
+        <div class="art-tag"><span class="tiny-square"></span> Different perspectives. Shared inquiry.</div>
+        <div class="art-message message-one"><span class="mini-label">A new perspective</span><p>“Could we look at this <br>another way?”</p><span class="message-avatar avatar-coral" aria-hidden="true"><svg viewBox="0 0 40 40"><circle cx="20" cy="14" r="7"/><path d="M7 36a13 13 0 0 1 26 0"/></svg></span></div>
+        <div class="art-message message-two"><span class="mini-label">An idea takes shape</span><p>“That connects with <br>what you said…”</p><span class="message-avatar avatar-lime" aria-hidden="true"><svg viewBox="0 0 40 40"><circle cx="20" cy="14" r="7"/><path d="M7 36a13 13 0 0 1 26 0"/></svg></span></div>
+        <div class="art-message message-moderator"><span class="mini-label"><svg class="angle-mark" viewBox="0 0 30.992 19.843" aria-hidden="true"><path d="m.89,12.115c-1.187-1.187-1.187-3.111,0-4.297L7.818.89c1.186-1.186,3.109-1.186,4.295,0l.002.002c1.186,1.186,1.186,3.109,0,4.295l-4.779,4.779,4.69,4.69c1.186,1.186,1.186,3.109,0,4.295l-.002.002c-1.186,1.186-3.109,1.186-4.295,0L.89,12.115Z"/><path d="m30.102,12.115c1.187-1.187,1.187-3.111,0-4.297L23.175.89c-1.186-1.186-3.109-1.186-4.295,0l-.002.002c-1.186,1.186-1.186,3.109,0,4.295l4.779,4.779-4.69,4.69c-1.186,1.186-1.186,3.109,0,4.295l.002.002c1.186,1.186,3.109,1.186,4.295,0l6.838-6.838Z"/></svg> AI Moderator</span><p>“Which evidence supports <br>each view?”</p></div>
+        <figcaption>Illustrative moments from a longer discussion</figcaption>
+      </figure>
+    </section>
 
-    <main class="main">
-      <!-- Hero Section -->
-      <section id="hero" class="hero section">
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
-          <div class="row align-items-center content">
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-              <h2>Empowering Engaged Learning</h2>
-              <p class="lead">
-                AI-powered dialogue platform that encourages active
-                participation, respectful interactions, and deeper learning
-              </p>
-              <div class="cta-buttons" data-aos="fade-up" data-aos-delay="300">
-                <a href="#contact" class="btn btn-primary">Join the Beta</a>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="hero-image">
-                <img
-                  src="assets/img/profile/hero.png"
-                  alt="AI as group Moderator"
-                  class="img-fluid"
-                  data-aos="zoom-out"
-                  data-aos-delay="300"
-                  fetchpriority="high"
-                />
-                <div class="shape-1"></div>
-                <div class="shape-2"></div>
-              </div>
-            </div>
+    <section class="approach section wrap" id="approach" aria-labelledby="approach-title">
+      <div class="section-intro"><p class="eyebrow">01 / The approach</p><h2 id="approach-title">Your learning goals. <br><em>Your approach to moderation.</em></h2><p>Learning through dialogue means explaining, questioning and building on other people’s ideas. Shape the moderator’s role around the kind of academic exchange you want to encourage.</p></div>
+      <div class="example-layout">
+        <div class="example-context"><h3>Set the purpose. <br>Shape the participation.</h3><p>Shared moderation profiles define the purpose, instructions and timing of support. Teachers select a profile for their activity. The moderator uses that approach to assess the discussion and contribute in the shared conversation. Uncertainty and respectful disagreement remain normal parts of learning.</p><p class="example-instruction">Explore three illustrative moments <span class="arrow-slot" aria-hidden="true"><svg class="arrow-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 6 18 18M6 18h12V6"/></svg></span></p><div class="example-tabs" role="tablist" aria-label="Example discussion moments"><button id="tab-connect" role="tab" aria-selected="true" aria-controls="example-panel" data-example="connect">01 <span>Connect ideas</span><span class="arrow-slot" aria-hidden="true"><svg class="arrow-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></span></button><button id="tab-include" role="tab" aria-selected="false" aria-controls="example-panel" data-example="include" tabindex="-1">02 <span>Notice an overlooked idea</span><span class="arrow-slot" aria-hidden="true"><svg class="arrow-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></span></button><button id="tab-space" role="tab" aria-selected="false" aria-controls="example-panel" data-example="space" tabindex="-1">03 <span>Plan a pause</span><span class="arrow-slot" aria-hidden="true"><svg class="arrow-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></span></button></div></div>
+        <div class="example-panel" id="example-panel" role="tabpanel" aria-labelledby="tab-connect" tabindex="0">
+          <div class="panel-top"><span class="mini-label">A moment in the discussion</span><span class="illustration-label">Illustrative example</span></div>
+          <div class="scenario-context"><span class="mini-label">The context</span><p id="example-scenario">Earlier in this fictional discussion, the group has repeatedly offered different proposals without comparing the reasoning behind them.</p></div>
+          <div class="sample-conversation" role="group" aria-label="Fictional conversation excerpt">
+            <div class="sample-message"><span class="sample-avatar student-a" aria-hidden="true">A</span><div><span class="sample-name" id="student-one-name">Alex</span><p id="student-one">“Giving the team more autonomy would help.”</p></div></div>
+            <div class="sample-message"><span class="sample-avatar student-b" aria-hidden="true">S</span><div><span class="sample-name" id="student-two-name">Sam</span><p id="student-two">“I think clearer roles are more important.”</p></div></div>
+            <div class="sample-response" id="moderator-message"><span class="mini-label" id="response-label"><svg class="angle-mark" viewBox="0 0 30.992 19.843" aria-hidden="true"><path d="m.89,12.115c-1.187-1.187-1.187-3.111,0-4.297L7.818.89c1.186-1.186,3.109-1.186,4.295,0l.002.002c1.186,1.186,1.186,3.109,0,4.295l-4.779,4.779,4.69,4.69c1.186,1.186,1.186,3.109,0,4.295l-.002.002c-1.186,1.186-3.109,1.186-4.295,0L.89,12.115Z"/><path d="m30.102,12.115c1.187-1.187,1.187-3.111,0-4.297L23.175.89c-1.186-1.186-3.109-1.186-4.295,0l-.002.002c-1.186,1.186-1.186,3.109,0,4.295l4.779,4.779-4.69,4.69c-1.186,1.186-1.186,3.109,0,4.295l.002.002c1.186,1.186,3.109,1.186,4.295,0l6.838-6.838Z"/></svg> AI Moderator · possible reply</span><p id="moderator-response">“Where could greater autonomy and clearer roles support each other?”</p></div>
           </div>
-        </div>
-      </section>
-      <!-- /Hero Section -->
-
-      <!-- About Section -->
-      <section id="about" class="about section light-background">
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>About AI Moderator</h2>
-          <div class="title-shape">
-            <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-              ></path>
-            </svg>
-          </div>
-          <p>
-            Empowering online discussions with AI-driven moderation for an
-            engaging and inclusive experience
-          </p>
-        </div>
-        <!-- End Section Title -->
-
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
-          <div class="row align-items-center">
-            <div
-              class="col-lg-6 position-relative"
-              data-aos="fade-right"
-              data-aos-delay="200"
-            >
-              <div class="about-image">
-                <img
-                  src="assets/img/profile/aboutai.png"
-                  alt="AI Moderator Overview"
-                  class="img-fluid rounded-4"
-                  loading="lazy"
-                />
-              </div>
-            </div>
-
-            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
-              <div class="about-content">
-                <span class="subtitle">What is AI Moderator?</span>
-
-                <p class="lead mb-4">
-                  The AI Moderator is an intelligent system designed to
-                  facilitate structured, inclusive, and productive online
-                  discussions by providing guidance, sharing relevant
-                  information, and keeping the conversation on track.
-                </p>
-
-                <div class="personal-info">
-                  <div class="row g-4">
-                    <div class="col-12">
-                      <div class="info-item">
-                        <span class="label">Key Features</span>
-                        <ul>
-                          <li>
-                            <strong>Simple and intuitive interface</strong>
-                          </li>
-                          <li>
-                            <strong>Use it anywhere</strong> – Computers,
-                            tablets, and mobile phones.
-                          </li>
-                          <li>
-                            <strong>Flexible dialogue</strong> – Supports both
-                            synchronous and asynchronous participation.
-                          </li>
-                          <li>
-                            <strong>Text or voice input</strong> – Communicate
-                            through typing or speaking, based on preference.
-                          </li>
-                          <li>
-                            <strong>Powered by advanced AI</strong> – Uses
-                            OpenAI's latest models.
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="signature mt-4">
-                  <div class="signature-info">
-                    <a href="#contact" class="mt-4 btn btn-primary"
-                      >Join the Beta</a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- /About Section -->
-
-      <!-- Services Section -->
-      <section id="services" class="services section">
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
-          <div class="row align-items-center">
-            <div class="col-lg-4 mb-5 mb-lg-0">
-              <h2 class="fw-bold mb-4 servies-title">
-                AI as a Pedagogical Assistant
-              </h2>
-              <p class="mb-4">
-                AI Moderator supports educators and students by guiding
-                discussions, encouraging critical thinking, and ensuring
-                inclusive participation.
-              </p>
-              <a href="#contact" class="btn btn-outline-primary"
-                >Join the Beta</a
-              >
-            </div>
-            <div class="col-lg-8">
-              <div class="row g-4">
-                <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
-                  <div class="service-item">
-                    <i class="bi bi-chat-dots icon"></i>
-                    <i class="bi bi-chat-dots icon"></i>
-                    <i class="bi bi-chat-dots icon"></i>
-                    <h3>Activate Student Engagement</h3>
-                    <p>
-                      Spark meaningful dialogue that drives active
-                      participation. AI Moderator empowers learners to express
-                      ideas, question assumptions, and stay involved.
-                    </p>
-                  </div>
-                </div>
-                <!-- End Service Item -->
-
-                <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
-                  <div class="service-item">
-                    <i class="bi bi-diagram-3 icon"></i>
-                    <h3>Foster Deeper Understanding</h3>
-                    <p>
-                      Constructive, AI-guided exchanges help clarify complex
-                      concepts through multiple perspectives. Learners gain
-                      deeper insight by reflecting, connecting, and building on
-                      each other’s ideas.
-                    </p>
-                  </div>
-                </div>
-                <!-- End Service Item -->
-
-                <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
-                  <div class="service-item">
-                    <i class="bi bi-person-arms-up icon"></i>
-                    <i class="bi bi-person-arms-up icon icon-orange"></i>
-                    <i class="bi bi-person-arms-up icon icon-green"></i>
-                    <h3>Ensure Inclusive Participationg</h3>
-                    <p>
-                      No voice goes unheard. The AI Moderator balances
-                      contributions, gently encouraging quieter learners.
-                    </p>
-                  </div>
-                </div>
-                <!-- End Service Item -->
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- /Services Section -->
-
-      <!-- Educators Services Section -->
-      <section id="services" class="services section light-background">
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
-          <div class="row align-items-center">
-            <div class="col-lg-4 order-lg-2 mb-5 mb-lg-0 ps-lg-3">
-              <h2 class="fw-bold mb-4 servies-title">
-                Intelligent Support for Educators
-              </h2>
-              <p class="mb-4">
-                AI Moderator empowers educators to design guided, student-led
-                discussions aligned with their teaching goals-freeing them to
-                focus on planning, scaffolding, and evaluation while students
-                engage in meaningful dialogue.
-              </p>
-              <a href="#contact" class="btn btn-outline-primary"
-                >Join the Beta</a
-              >
-            </div>
-            <div class="col-lg-8 order-lg-1">
-              <div class="row g-4">
-                <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
-                  <div class="service-item">
-                    <i class="bi bi-sliders icon"></i>
-                    <h3>Customize Guidance</h3>
-                    <p>
-                      Define how AI Moderator should guide student dialogue
-                      around specific topics or learning goals. Tailor the
-                      moderator’s approach to match your curriculum, pedagogical
-                      style, and classroom needs-making it a flexible extension
-                      of your own teaching voice.
-                    </p>
-                  </div>
-                </div>
-                <!-- End Service Item -->
-
-                <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
-                  <div class="service-item">
-                    <i class="bi bi-clock icon"></i>
-                    <h3>Free Up Time for High-Impact Teaching</h3>
-                    <p>
-                      Reduce the need to monitor every student exchange. With AI
-                      Moderator managing the flow of conversation, you can
-                      invest your time where it matters most: crafting engaging
-                      learning experiences and delivering insightful
-                      evaluations.
-                    </p>
-                  </div>
-                </div>
-                <!-- End Service Item -->
-
-                <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
-                  <div class="service-item">
-                    <i class="bi bi-chat-dots icon"></i>
-                    <h3>Evaluate and Foster Constructive Dialogue</h3>
-                    <p>
-                      Access transcripts and summaries to clearly see how
-                      students engage with one another. Use these insights to
-                      foster meaningful, constructive discussions with your
-                      students-reflecting on their ideas together and supporting
-                      deeper learning.
-                    </p>
-                  </div>
-                </div>
-                <!-- End Service Item -->
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- /Educators Services Section -->
-      <!-- Technical Specification Section-->
-      <section id="specs" class="about section">
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>AI Moderator in Action</h2>
-          <div class="title-shape">
-            <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-              ></path>
-            </svg>
-          </div>
-          <p>
-            See how AI Moderator empowers educators and supports
-            student-centered discussions. Watch the introduction to understand
-            the concept behind AI-driven moderation, and explore the demo
-            showcasing the experience for admins, teachers, and students.
-          </p>
-        </div>
-        <!-- End Section Title -->
-
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
-          <div class="row g-5 align-items-stretch">
-            <div
-              class="col-lg-6 position-relative"
-              data-aos="fade-right"
-              data-aos-delay="200"
-            >
-              <div class="about-video">
-                <h3 class="fw-bold mb-3">Introduction to AI Moderator</h3>                			
-				<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%">
-					<iframe src="https://cphbusiness.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=6f61d8cb-ab19-4bb9-907e-b3b000e92ce4&autoplay=false&offerviewer=false&showtitle=true&showbrand=false&captions=true&interactivity=all" style="border: 1px solid #464646; position: absolute; top: 0; left: 0; width: 100%; height: 100%; box-sizing: border-box;" allowfullscreen allow="autoplay" aria-label="Integreret videoafspiller i Panopto" aria-description="AI Moderator Demo"></iframe>
-				</div>				
-              </div>
-            </div>
-            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
-              <div class="about-video">
-                <h3 class="fw-bold mb-3">Configuration Demo</h3>                
-				<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%">
-					<iframe src="https://cphbusiness.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=22b7eb95-ced0-4974-81ef-b3b000e92cda&autoplay=false&offerviewer=false&showtitle=true&showbrand=false&captions=true&interactivity=all" style="border: 1px solid #464646; position: absolute; top: 0; left: 0; width: 100%; height: 100%; box-sizing: border-box;" allowfullscreen allow="autoplay" aria-label="Integreret videoafspiller i Panopto" aria-description="moderator_backend_demo_1080p"></iframe>
-				</div>	
-				
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Technical Specification Section-->
-
-      <!-- Contact Section -->
-      <section id="contact" class="contact section light-background">
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
-          <div class="row g-5">
-            <div class="col-lg-6">
-              <div class="content" data-aos="fade-up" data-aos-delay="200">
-                <div class="section-category mb-3">Join the Beta Program</div>
-                <h2 class="display-5 mb-4">
-                  Be Among the First to Experience AI Moderator
-                </h2>
-                <p class="lead mb-4">
-                  Available exclusively to accredited institutions. Sign up to
-                  express your interest in early access and contribute to the
-                  future of AI-supported dialogue.
-                </p>
-
-                <div class="contact-info mt-5">
-                  <div class="info-item d-flex mb-3">
-                    <i class="bi bi-envelope-at me-3"></i>
-                    <span>info@smartlearning.dk</span>
-                  </div>
-
-                  <!--div class="info-item d-flex mb-3">
-                    <i class="bi bi-telephone me-3"></i>
-                    <span>+1 5589 55488 558</span>
-                  </div-->
-
-                  <div class="info-item d-flex mb-4">
-                    <i class="bi bi-geo-alt me-3"></i>
-                    <span>Nansensgade 19, 1366 København K</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-6">
-              <div
-                class="contact-form card"
-                data-aos="fade-up"
-                data-aos-delay="300"
-              >
-                <div class="card-body p-4 p-lg-5">
-                  <!-- start-->
-
-                  <form
-                    action="https://smartlearning.us4.list-manage.com/subscribe/post?u=3798b24e3fe03321ff0411c2c&amp;id=a0380898d5&amp;f_id=00b555e2f0"
-                    method="post"
-                    id="mc-embedded-subscribe-form"
-                    name="mc-embedded-subscribe-form"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    
-                  >
-                    <div class="input-container">
-                      <label for="mce-FNAME">First Name *</label
-                      ><input
-                        type="text"
-                        name="FNAME"
-                        id="mce-FNAME"
-                        value=""
-                        required
-                      />
-                    </div>
-                    <div class="input-container">
-                      <label for="mce-LNAME"
-                        >Last Name <span class="asterisk">*</span></label
-                      ><input
-                        type="text"
-                        name="LNAME"
-                        id="mce-LNAME"
-                        value=""
-                        required
-                      />
-                    </div>
-                    <div class="input-container">
-                      <label for="mce-EMAIL"
-                        >Email Address <span class="asterisk">*</span></label
-                      ><input
-                        type="email"
-                        name="EMAIL"
-                        id="mce-EMAIL"
-                        value=""
-                        required
-                      />
-                    </div>
-                    <div class="input-container">
-                      <label for="mce-ORG"
-                        >Organisation <span class="asterisk">*</span></label
-                      ><input
-                        type="text"
-                        name="ORG"
-                        id="mce-ORG"
-                        value=""
-                        required
-                      />
-                    </div>
-                    <div class="input-container">
-                      <label for="mce-ROLE">Role </label
-                      ><input
-                        type="text"
-                        name="ROLE"
-                        class="text"
-                        id="mce-ROLE"
-                        value=""
-                      />
-                    </div>
-                    <div class="input-container">
-                      <label for="mce-MESSAGE"
-                        >What motivates you to take part? </label
-                      ><input
-                        type="text"
-                        name="MESSAGE"
-                        class="text"
-                        id="mce-MESSAGE"
-                        value=""
-                      />
-                    </div>
-
-                    <div
-                      aria-hidden="true"
-                      class="honeypot-field"
-                    >
-                      <input
-                        type="text"
-                        name="b_3798b24e3fe03321ff0411c2c_a0380898d5"
-                        tabindex="-1"
-                        value=""
-                      />
-                    </div>
-                    <div class="clear">
-                      <input
-                        type="submit"
-                        name="subscribe"
-                        id="mc-embedded-subscribe"
-                        class="button"
-                        value="Sign Up"
-                      />
-                    </div>
-                  </form>
-
-                  <!-- end-->
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- /Contact Section -->
-
-      <!-- Testimonials Section -->
-      <section id="aboutus" class="testimonials section">
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>About Us</h2>
-          <div class="title-shape">
-            <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-              ></path>
-            </svg>
-          </div>
-        </div>
-        <!-- End Section Title -->
-
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <div class="row">
-                  <div class="col-lg-8">
-                    <a href="https://www.smartlearning.dk/" target="_blank" rel="noopener noreferrer"
-                      ><h2>SmartLearning</h2></a
-                    >
-
-                    <p>
-                      SmartLearning is a Danish provider of accredited online
-                      education and a digital learning resource center, jointly
-                      owned by eight universities of applied sciences in
-                      Denmark.
-                    </p>
-                    <p>
-                      As part of our commitment to improving online education,
-                      we lead the AI Moderator project in partnership with the
-                      Digital Education Futures Initiative (DEFI) at the
-                      University of Cambridge. This collaboration explores how
-                      AI-supported dialogue can enhance student engagement,
-                      strengthen critical thinking, and foster more inclusive
-                      engagement.
-                    </p>
-                  </div>
-                  <div class="col-lg-4 d-none d-lg-block">
-                    <div class="featured-img-wrapper">
-                      <img
-                        src="assets/img/person/team.png"
-                        class="featured-img"
-                        alt="Team behind AI Moderator"
-                        loading="lazy"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- End Testimonial Item -->
-          </div>
-        </div>
-      </section>
-      <!-- /Testimonials Section -->
-    </main>
-
-    <footer id="footer" class="footer light-background">
-      <div class="container">
-        <div class="copyright text-center">
-          <p>
-            © <span>Copyright@2025</span>
-            <strong class="px-1 sitename">SmartLearning</strong>
-            <span>All Rights Reserved</span>
-          </p>
+          <aside class="example-annotation" id="pause-annotation" aria-label="Explanation outside the conversation" hidden><span class="mini-label">A planned pause</span><p><strong>The selected profile includes a pause for source checking.</strong> Automatic silence assessments are paused during this period. This is an explanation outside the chat, not a moderator message.</p></aside>
+          <p class="example-takeaway" id="example-takeaway">One possible contribution from a profile that encourages students to connect and compare ideas.</p>
         </div>
       </div>
-    </footer>
+      <div class="attention-block"><p class="eyebrow">What the moderator pays attention to</p><p class="attention-explanation">The selected profile guides five specialised assessments: interpersonal conflict or expressed distress, discussion rules, participation, reasoning and timing. Administrators set their instructions and the timing of assessments. With automatic replies enabled, an assessment can lead to a contribution in the shared conversation. A time threshold prompts an assessment, not an automatic reply.</p><ul class="attention-list"><li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="7" r="3"/><path d="M3 21v-3a6 6 0 0 1 12 0v3M17 4a3 3 0 0 1 0 6m1 4a5 5 0 0 1 3 4v3"/></svg> Participation</li><li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="5" cy="6" r="3"/><circle cx="19" cy="6" r="3"/><circle cx="12" cy="19" r="3"/><path d="m7 9 4 7m6-7-4 7M8 6h8"/></svg> Reasoning</li><li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3h13v10H8l-5 4V3Z"/><path d="M19 7h3v14l-5-4h-5v-1"/></svg> Respectful exchange</li><li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 6 2 2 3-4m-5 9 2 2 3-4m-5 9 2 2 3-4M12 6h9m-9 7h9m-9 7h9"/></svg> Discussion rules</li><li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 6v6l4 3"/></svg> Timing &amp; pauses</li></ul></div>
+    </section>
 
-    <!-- Scroll Top -->
-    <button
-      type="button"
-      id="scroll-top"
-      class="scroll-top d-flex align-items-center justify-content-center"
-      aria-label="Scroll to top"
-      ><i class="bi bi-arrow-up-short" aria-hidden="true"></i
-    ></button>
+    <section class="practice-section section" id="in-practice" aria-labelledby="practice-title"><div class="wrap">
+      <div class="section-heading-row"><div><p class="eyebrow">02 / In practice</p><h2 id="practice-title">Set the scene. <br><em>Let the ideas unfold.</em></h2></div><p>Three one-minute introductions to the real interface, using a synchronous discussion as an example. AI Moderator also supports asynchronous dialogue.</p></div>
+      <div class="film-grid">
+<article class="film-card film-card--administrator"><p class="film-audience">01 / Administrators</p><figure class="film-player" data-video-slot="administrator"><video controls playsinline preload="metadata" width="1920" height="1080" poster="assets/videos/administrator-poster.jpg?v=roles3-final" aria-label="AI Moderator — Administrators" aria-describedby="administrator-video-note"><source src="assets/videos/administrator.mp4?v=roles3-final" type="video/mp4"><track kind="captions" src="assets/videos/administrator.vtt?v=roles3-final" srclang="en" label="English" default><p><a href="assets/videos/administrator.mp4?v=roles3-final">Download the video</a></p></video><figcaption class="visually-hidden">Administrators. One minute, with English narration and captions.</figcaption></figure><div class="film-copy"><h3>Shape the moderator’s role.</h3><p>Create teacher accounts and define shared moderation profiles. Set the educational purpose, guidance, language and timing of support.</p><p class="film-scope" id="administrator-video-note">60 seconds · English audio and captions. <span>Real interface screenshots; fictional sample data and discussion.</span><span class="fullscreen-hint">Use full screen for interface details.</span></p><details class="film-transcript"><summary>Read the narration</summary><div><p>AI Moderator supports live academic discussions. Administrators define how the moderator supports learning across activities.</p><p>Start in People, where you create teacher accounts and organise access.</p><p>Next, prepare shared moderation profiles. Give each profile a clear purpose, such as comparing evidence or exploring contrasting perspectives.</p><p>Set the learning objective, discussion rules and conversation language.</p><p>Choose whether automatic moderation publishes contributions, records decisions for observation, or is switched off.</p><p>Participation and timing settings shape when support is considered, including planned pauses.</p><p>Teachers then select a profile for their dialogue and set up the activity.</p><p>Together, administrators and teachers determine how much, how and when the moderator participates. Students develop and discuss their own ideas.</p></div></details></div></article>
+<article class="film-card film-card--teacher"><p class="film-audience">02 / Teachers</p><figure class="film-player" data-video-slot="teacher"><video controls playsinline preload="metadata" width="1920" height="1080" poster="assets/videos/teacher-poster.jpg?v=roles3-final" aria-label="AI Moderator — Teachers" aria-describedby="teacher-video-note"><source src="assets/videos/teacher.mp4?v=roles3-final" type="video/mp4"><track kind="captions" src="assets/videos/teacher.vtt?v=roles3-final" srclang="en" label="English" default><p><a href="assets/videos/teacher.mp4?v=roles3-final">Download the video</a></p></video><figcaption class="visually-hidden">Teachers. One minute, with English narration and captions.</figcaption></figure><div class="film-copy"><h3>Design the discussion activity.</h3><p>Select a shared profile, set a clear task and schedule, and organise participants into groups. Follow the activity and end the dialogue when needed.</p><p class="film-scope" id="teacher-video-note">60 seconds · English audio and captions. <span>Real interface screenshots; fictional sample data and discussion.</span><span class="fullscreen-hint">Use full screen for interface details.</span></p><details class="film-transcript"><summary>Read the narration</summary><div><p>AI Moderator lets you design a live discussion around your learning goals. You shape the activity and choose how AI supports it.</p><p>Select a shared moderation profile prepared by your administrator. This sets the moderator’s approach, instructions and timing.</p><p>Give the dialogue a topic and a clear task. Here, students compare nuclear power within a low-carbon electricity system.</p><p>Set the start and end times. Choose the number of participants and groups.</p><p>Share an individual join code with each student. Each code connects them to their group.</p><p>During the activity, view its status, groups and dialogue details. You can end the dialogue when needed.</p><p>The moderator participates according to the selected profile. Students can also request help in the shared conversation.</p><p>You set the educational context. Students examine evidence and develop their conclusions.</p></div></details></div></article>
+<article class="film-card film-card--student-experience"><p class="film-audience">03 / The student experience</p><figure class="film-player" data-video-slot="student-experience"><video controls playsinline preload="metadata" width="1920" height="1080" poster="assets/videos/student-experience-poster.jpg?v=roles3-final" aria-label="AI Moderator — The student experience" aria-describedby="student-experience-video-note"><source src="assets/videos/student-experience.mp4?v=roles3-final" type="video/mp4"><track kind="captions" src="assets/videos/student-experience.vtt?v=roles3-final" srclang="en" label="English" default><p><a href="assets/videos/student-experience.mp4?v=roles3-final">Download the video</a></p></video><figcaption class="visually-hidden">The student experience. One minute, with English narration and captions.</figcaption></figure><div class="film-copy"><h3>Explore the question together.</h3><p>Follow Alex, Sam and Priya as they discuss nuclear power, with a distinct voice for each participant. Students contribute through text and can request public help using @moderator or Call Moderator. Voice input may also be available, depending on the trial setup.</p><p class="film-scope" id="student-experience-video-note">60 seconds · English audio and captions. <span>Real interface screenshots; fictional sample data and discussion.</span><span class="fullscreen-hint">Use full screen for interface details.</span></p><details class="film-transcript"><summary>Read the narration</summary><div><p><strong>Narrator:</strong> Students join with individual codes. Today’s question: should nuclear power be part of a low-carbon electricity system?</p><p><strong>Alex:</strong> Could nuclear power help provide reliable electricity?</p><p><strong>Sam:</strong> How should we weigh cost and construction time?</p><p><strong>Priya:</strong> What about waste, safety and public acceptance?</p><p><strong>Narrator:</strong> Later, positions have been repeated. This activity’s moderation profile calls for comparing the reasoning.</p><p><strong>Moderator:</strong> What evidence supports each view? Which shared criteria could help you compare the options?</p><p><strong>Alex:</strong> Let’s check sources for our reliability claims.</p><p><strong>Sam:</strong> Could we compare options over the same time period?</p><p><strong>Priya:</strong> Let’s include safety and public acceptance.</p><p><strong>Narrator:</strong> Educators determine the moderator’s role. Students examine evidence, connect perspectives and develop their own conclusions.</p></div></details></div></article>
+      </div>
+      <aside class="principle-note" aria-labelledby="moderation-principle-title"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16M8 3v6M16 9v6M10 15v6"/></svg><div><h3 id="moderation-principle-title">Educators determine the moderator’s role.</h3><p>Administrators set up moderation profiles that guide how and when the AI responds. Teachers choose a profile, set the discussion topic and task, decide when the activity takes place and organise the groups. These choices determine the moderator’s role in the discussion.</p></div></aside>
+    </div></section>
 
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js" defer></script>
-    <script src="assets/vendor/aos/aos.js" defer></script>
+    <section class="collaboration-section section wrap" id="collaboration" aria-labelledby="collaboration-title"><div class="section-heading-row"><div><p class="eyebrow">03 / The collaboration</p><h2 id="collaboration-title">Shared inquiry. <br><em>Complementary expertise.</em></h2></div><p>Bringing educational practice, research and experimentation into the design of AI-supported dialogue.</p></div>
+      <div class="partner-grid partner-grid--three"><article class="partner-card smartlearning-card"><div class="partner-logo partner-logo--smartlearning"><img src="assets/smartlearning-logo.svg" alt="SmartLearning logo" width="282" height="25" loading="lazy"></div><p class="eyebrow">Platform development</p><h3>SmartLearning</h3><p class="partner-unit">Project lead and developer</p><p>AI Moderator was developed by SmartLearning. The project brings together software development and experience in online higher education to translate research on educational dialogue into a platform for teaching and experimentation.</p><a class="text-link" href="https://www.smartlearning.dk/">Explore SmartLearning <span class="arrow-slot" aria-hidden="true"><svg class="arrow-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></span></a></article><article class="partner-card cambridge"><div class="partner-logo partner-logo--cambridge"><img src="assets/cambridge-logo.svg" alt="University of Cambridge logo" width="567" height="118" loading="lazy"></div><p class="eyebrow">Academic collaboration</p><h3>University of Cambridge</h3><p class="partner-unit">Digital Education Futures Initiative (DEFI)</p><p>Developed in collaboration with DEFI at the University of Cambridge, the project explores how AI-supported dialogue can encourage student engagement, critical thinking and inclusive participation.</p><a class="text-link" href="https://www.deficambridge.org/">Explore DEFI <span class="arrow-slot" aria-hidden="true"><svg class="arrow-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></span></a></article><article class="partner-card flame"><div class="partner-logo partner-logo--flame"><img src="assets/flame-logo.svg" alt="FLAME University logo" width="157" height="156" loading="lazy"></div><p class="eyebrow">Academic collaboration</p><h3>FLAME University</h3><p class="partner-unit">Centre for Digital Learning</p><p>FLAME’s Centre for Digital Learning contributes the research-informed moderation framework, practical detector instructions, testing and feedback that help shape when and how the moderator offers support.</p><a class="text-link" href="https://www.flame.edu.in/research/centres/cdl">Explore the Centre <span class="arrow-slot" aria-hidden="true"><svg class="arrow-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></span></a></article></div>
+      <div class="contributor-acknowledgement" aria-labelledby="contributors-title">
+        <h3 id="contributors-title">Contributors and intellectual foundations</h3>
+        <p>AI Moderator builds on an initial proposal by <strong>Professor Rupert Wegerif</strong>, Academic Director of DEFI, to use AI to moderate educational dialogue. This proposal provided the starting point for the project.</p>
+        <p><strong>Bo Yu</strong>, a PhD student at the Faculty of Education, University of Cambridge, has undertaken extensive research on AI-supported educational dialogue, contributing to the project’s research foundation.</p>
+        <p>We also acknowledge <strong>Dr. Sorabh Bajaj</strong> (Director), <strong>Manish Dhawan</strong> (Senior Manager) and <strong>Praharshini Kumar</strong> (Instructional Designer) at FLAME University’s Centre for Digital Learning for their contributions to the moderation framework, design, testing and feedback.</p>
+        <p class="research-context">Further reading: <a href="https://www.deficambridge.org/the-future-of-educational-dialogue-with-ai-at-the-table/">The Future of Educational Dialogue: With AI at the Table</a>, by Bo Yu, Tue Bjerl Nielsen and Rupert Wegerif.</p>
+      </div>
+    </section>
 
-    <!-- Main JS File -->
-    <script src="assets/js/main.js" defer></script>
-  </body>
+    <section class="explore-section section" aria-labelledby="explore-title"><div class="wrap explore-layout"><div><p class="eyebrow">04 / Explore with us</p><h2 id="explore-title">A space to try. <br><em>A reason to inquire.</em></h2><p>For learning labs, educational developers and academics exploring the role of AI in collaborative learning.</p><p>AI Moderator is a beta for thoughtful experimentation. Its design is informed by research; its effects on learning are a question to investigate together.</p><div class="inquiry-art" aria-hidden="true"><span>Try.</span><span>Observe.</span><span>Reflect.</span><svg viewBox="0 0 260 72"><path d="M10 15C70 67 190 67 250 15m-13 2 13-2-2 13"/></svg></div></div><div class="faq"><h3>A few useful things to know</h3><details open><summary>What kind of discussion is it designed for?<span aria-hidden="true">+</span></summary><div><p>Both synchronous and asynchronous group discussions around a shared question or task. Students can participate at the same time or contribute at different times, developing their ideas and responding to peers in a shared dialogue. They can also request the moderator’s help.</p><p>Students can read, listen and reflect without having to keep typing or posting.</p></div></details><details><summary>How much control do educators have?<span aria-hidden="true">+</span></summary><div><p>Administrators maintain shared moderation profiles: learning goals, discussion rules, language, timing and the instructions for the five assessments.</p><p>Teachers choose a profile to match their learning activity, set the topic and task, schedule the dialogue and organise groups. They can view the activity’s status and end it when needed.</p><p>Participants can request support during the discussion by typing <strong>@moderator</strong> or selecting <strong>Call Moderator</strong>. The moderator responds in the shared conversation.</p></div></details><details><summary>Does the AI replace the educator?<span aria-hidden="true">+</span></summary><div><p>No. It offers support within the group conversation. Educators remain responsible for the learning design and for reviewing how the activity works.</p></div></details></div></div></section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-title"><div class="wrap contact-inner"><div><p class="eyebrow">Start a conversation</p><h2 id="contact-title">What could better dialogue <br><em>look like at your university?</em></h2><p>Let’s explore a trial, a teaching idea or a learning lab collaboration.</p></div><div class="contact-person"><span class="contact-spark" aria-hidden="true"><svg class="angle-mark" viewBox="0 0 30.992 19.843" aria-hidden="true"><path d="m.89,12.115c-1.187-1.187-1.187-3.111,0-4.297L7.818.89c1.186-1.186,3.109-1.186,4.295,0l.002.002c1.186,1.186,1.186,3.109,0,4.295l-4.779,4.779,4.69,4.69c1.186,1.186,1.186,3.109,0,4.295l-.002.002c-1.186,1.186-3.109,1.186-4.295,0L.89,12.115Z"/><path d="m30.102,12.115c1.187-1.187,1.187-3.111,0-4.297L23.175.89c-1.186-1.186-3.109-1.186-4.295,0l-.002.002c-1.186,1.186-1.186,3.109,0,4.295l4.779,4.779-4.69,4.69c-1.186,1.186-1.186,3.109,0,4.295l.002.002c1.186,1.186,3.109,1.186,4.295,0l6.838-6.838Z"/></svg></span><p>Talk to <strong>Meena Krishnamurthi</strong><span>SmartLearning</span></p><a class="button button-light" href="mailto:mkrs@Smartlearning.dk?subject=Exploring%20AI%20Moderator">Email Meena <span class="arrow-slot" aria-hidden="true"><svg class="arrow-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></span></a><a class="contact-email" href="mailto:mkrs@Smartlearning.dk">mkrs@Smartlearning.dk</a></div></div></section>
+  </main>
+  <footer class="site-footer"><div class="wrap footer-inner"><a class="brand" href="#top"><svg class="angle-mark" viewBox="0 0 30.992 19.843" aria-hidden="true"><path d="m.89,12.115c-1.187-1.187-1.187-3.111,0-4.297L7.818.89c1.186-1.186,3.109-1.186,4.295,0l.002.002c1.186,1.186,1.186,3.109,0,4.295l-4.779,4.779,4.69,4.69c1.186,1.186,1.186,3.109,0,4.295l-.002.002c-1.186,1.186-3.109,1.186-4.295,0L.89,12.115Z"/><path d="m30.102,12.115c1.187-1.187,1.187-3.111,0-4.297L23.175.89c-1.186-1.186-3.109-1.186-4.295,0l-.002.002c-1.186,1.186-1.186,3.109,0,4.295l4.779,4.779-4.69,4.69c-1.186,1.186-1.186,3.109,0,4.295l.002.002c1.186,1.186,3.109,1.186,4.295,0l6.838-6.838Z"/></svg><span>AI Moderator</span></a><span>© 2026 SmartLearning</span><a href="#top">Back to top <svg class="arrow-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 20V4m-7 7 7-7 7 7"/></svg></a></div></footer>
+</body>
 </html>

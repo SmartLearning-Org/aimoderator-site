@@ -1,0 +1,133 @@
+{
+  "checks": [
+    {
+      "hash": "#in-practice",
+      "headerBottom": 89,
+      "scrollPadding": "88px",
+      "targetTop": 88.234375,
+      "viewport": 1440
+    },
+    {
+      "atPageBottom": false,
+      "hash": "#collaboration",
+      "headerBottom": 89,
+      "height": 1000,
+      "menuClosed": true,
+      "scrollPadding": "88px",
+      "targetTop": 88.0625,
+      "viewport": 1440
+    },
+    {
+      "atPageBottom": false,
+      "hash": "#approach",
+      "headerBottom": 89,
+      "height": 1000,
+      "menuClosed": true,
+      "scrollPadding": "88px",
+      "targetTop": 87.953125,
+      "viewport": 1440
+    },
+    {
+      "atPageBottom": false,
+      "hash": "#contact",
+      "headerBottom": 89,
+      "height": 1000,
+      "menuClosed": true,
+      "scrollPadding": "88px",
+      "targetTop": 88.140625,
+      "viewport": 1440
+    },
+    {
+      "atPageBottom": false,
+      "hash": "#approach",
+      "headerBottom": 77,
+      "height": 1024,
+      "menuClosed": true,
+      "scrollPadding": "76px",
+      "targetTop": 76.1015625,
+      "viewport": 768
+    },
+    {
+      "atPageBottom": false,
+      "hash": "#collaboration",
+      "headerBottom": 77,
+      "height": 1024,
+      "menuClosed": true,
+      "scrollPadding": "76px",
+      "targetTop": 75.8359375,
+      "viewport": 768
+    },
+    {
+      "atPageBottom": false,
+      "hash": "#in-practice",
+      "headerBottom": 77,
+      "height": 1024,
+      "menuClosed": true,
+      "scrollPadding": "76px",
+      "targetTop": 76.0234375,
+      "viewport": 768
+    },
+    {
+      "atPageBottom": false,
+      "hash": "#approach",
+      "headerBottom": 75,
+      "height": 844,
+      "menuClosed": true,
+      "scrollPadding": "74px",
+      "targetTop": 74.0625,
+      "viewport": 390
+    },
+    {
+      "atPageBottom": false,
+      "hash": "#in-practice",
+      "headerBottom": 75,
+      "height": 844,
+      "menuClosed": true,
+      "scrollPadding": "74px",
+      "targetTop": 73.8984375,
+      "viewport": 390
+    },
+    {
+      "atPageBottom": false,
+      "hash": "#collaboration",
+      "headerBottom": 75,
+      "height": 844,
+      "menuClosed": true,
+      "scrollPadding": "74px",
+      "targetTop": 74.015625,
+      "viewport": 390
+    },
+    {
+      "atPageBottom": false,
+      "hash": "#contact",
+      "headerBottom": 75,
+      "height": 844,
+      "menuClosed": true,
+      "scrollPadding": "74px",
+      "targetTop": 74.0546875,
+      "viewport": 390
+    },
+    {
+      "atPageBottom": false,
+      "hash": "#contact",
+      "headerBottom": 77,
+      "height": 1024,
+      "menuClosed": true,
+      "scrollPadding": "76px",
+      "targetTop": 75.9296875,
+      "viewport": 768
+    }
+  ],
+  "contactBeforeFix": {
+    "atPageBottom": true,
+    "hash": "#contact",
+    "headerBottom": 89,
+    "height": 1000,
+    "menuClosed": true,
+    "scrollPadding": "88px",
+    "targetTop": 368.140625,
+    "viewport": 1440
+  },
+  "allAligned": true,
+  "consoleErrors": []
+}

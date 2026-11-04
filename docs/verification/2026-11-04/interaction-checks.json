@@ -1,0 +1,30 @@
+{
+  "secondTab": true,
+  "pause": true,
+  "firstTab": true,
+  "transcriptOpen": true,
+  "faqOpen": true,
+  "videoMetadata": [
+    {
+      "captions": 1,
+      "controls": true,
+      "duration": 60,
+      "error": null,
+      "ready": 4
+    },
+    {
+      "captions": 1,
+      "controls": true,
+      "duration": 60,
+      "error": null,
+      "ready": 4
+    },
+    {
+      "captions": 1,
+      "controls": true,
+      "duration": 60,
+      "error": null,
+      "ready": 4
+    }
+  ]
+}

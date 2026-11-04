@@ -1,0 +1,234 @@
+[
+  {
+    "arrows": 12,
+    "calloutBackground": "rgb(243, 245, 255)",
+    "colours": [
+      "rgb(233, 237, 255)",
+      "rgb(229, 248, 224)",
+      "rgb(224, 247, 247)"
+    ],
+    "logoSizes": [
+      {
+        "alt": "SmartLearning logo",
+        "h": 19.7265625,
+        "w": 224
+      },
+      {
+        "alt": "University of Cambridge logo",
+        "h": 46.5859375,
+        "w": 224
+      },
+      {
+        "alt": "FLAME University logo",
+        "h": 109.296875,
+        "w": 110
+      }
+    ],
+    "overflow": [],
+    "page": 320,
+    "viewport": 320
+  },
+  {
+    "arrows": 12,
+    "calloutBackground": "rgb(243, 245, 255)",
+    "colours": [
+      "rgb(233, 237, 255)",
+      "rgb(229, 248, 224)",
+      "rgb(224, 247, 247)"
+    ],
+    "logoSizes": [
+      {
+        "alt": "SmartLearning logo",
+        "h": 23.7734375,
+        "w": 269.9921875
+      },
+      {
+        "alt": "University of Cambridge logo",
+        "h": 56.140625,
+        "w": 269.9765625
+      },
+      {
+        "alt": "FLAME University logo",
+        "h": 109.296875,
+        "w": 110
+      }
+    ],
+    "overflow": [],
+    "page": 390,
+    "viewport": 390
+  },
+  {
+    "arrows": 12,
+    "calloutBackground": "rgb(243, 245, 255)",
+    "colours": [
+      "rgb(233, 237, 255)",
+      "rgb(229, 248, 224)",
+      "rgb(224, 247, 247)"
+    ],
+    "logoSizes": [
+      {
+        "alt": "SmartLearning logo",
+        "h": 23.7734375,
+        "w": 269.9921875
+      },
+      {
+        "alt": "University of Cambridge logo",
+        "h": 56.140625,
+        "w": 269.9765625
+      },
+      {
+        "alt": "FLAME University logo",
+        "h": 109.296875,
+        "w": 110
+      }
+    ],
+    "overflow": [],
+    "page": 540,
+    "viewport": 540
+  },
+  {
+    "arrows": 12,
+    "calloutBackground": "rgb(243, 245, 255)",
+    "colours": [
+      "rgb(233, 237, 255)",
+      "rgb(229, 248, 224)",
+      "rgb(224, 247, 247)"
+    ],
+    "logoSizes": [
+      {
+        "alt": "SmartLearning logo",
+        "h": 23.7734375,
+        "w": 269.9921875
+      },
+      {
+        "alt": "University of Cambridge logo",
+        "h": 56.140625,
+        "w": 269.9765625
+      },
+      {
+        "alt": "FLAME University logo",
+        "h": 119.234375,
+        "w": 120
+      }
+    ],
+    "overflow": [],
+    "page": 768,
+    "viewport": 768
+  },
+  {
+    "arrows": 12,
+    "calloutBackground": "rgb(243, 245, 255)",
+    "colours": [
+      "rgb(233, 237, 255)",
+      "rgb(229, 248, 224)",
+      "rgb(224, 247, 247)"
+    ],
+    "logoSizes": [
+      {
+        "alt": "SmartLearning logo",
+        "h": 23.7734375,
+        "w": 269.9921875
+      },
+      {
+        "alt": "University of Cambridge logo",
+        "h": 56.140625,
+        "w": 269.9765625
+      },
+      {
+        "alt": "FLAME University logo",
+        "h": 119.234375,
+        "w": 120
+      }
+    ],
+    "overflow": [],
+    "page": 820,
+    "viewport": 820
+  },
+  {
+    "arrows": 12,
+    "calloutBackground": "rgb(243, 245, 255)",
+    "colours": [
+      "rgb(233, 237, 255)",
+      "rgb(229, 248, 224)",
+      "rgb(224, 247, 247)"
+    ],
+    "logoSizes": [
+      {
+        "alt": "SmartLearning logo",
+        "h": 23.7734375,
+        "w": 269.9921875
+      },
+      {
+        "alt": "University of Cambridge logo",
+        "h": 56.140625,
+        "w": 269.9765625
+      },
+      {
+        "alt": "FLAME University logo",
+        "h": 119.234375,
+        "w": 120
+      }
+    ],
+    "overflow": [],
+    "page": 1024,
+    "viewport": 1024
+  },
+  {
+    "arrows": 12,
+    "calloutBackground": "rgb(243, 245, 255)",
+    "colours": [
+      "rgb(233, 237, 255)",
+      "rgb(229, 248, 224)",
+      "rgb(224, 247, 247)"
+    ],
+    "logoSizes": [
+      {
+        "alt": "SmartLearning logo",
+        "h": 23.7734375,
+        "w": 269.9921875
+      },
+      {
+        "alt": "University of Cambridge logo",
+        "h": 56.140625,
+        "w": 269.9765625
+      },
+      {
+        "alt": "FLAME University logo",
+        "h": 119.234375,
+        "w": 120
+      }
+    ],
+    "overflow": [],
+    "page": 1440,
+    "viewport": 1440
+  },
+  {
+    "arrows": 12,
+    "calloutBackground": "rgb(243, 245, 255)",
+    "colours": [
+      "rgb(233, 237, 255)",
+      "rgb(229, 248, 224)",
+      "rgb(224, 247, 247)"
+    ],
+    "logoSizes": [
+      {
+        "alt": "SmartLearning logo",
+        "h": 23.7734375,
+        "w": 269.9921875
+      },
+      {
+        "alt": "University of Cambridge logo",
+        "h": 56.140625,
+        "w": 269.9765625
+      },
+      {
+        "alt": "FLAME University logo",
+        "h": 119.234375,
+        "w": 120
+      }
+    ],
+    "overflow": [],
+    "page": 1920,
+    "viewport": 1920
+  }
+]

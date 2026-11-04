@@ -1,0 +1,23 @@
+[
+  {
+    "fonts": "loaded",
+    "hash": "#collaboration",
+    "headerBottom": 75,
+    "targetTop": 74.015625,
+    "viewport": 390
+  },
+  {
+    "fonts": "loaded",
+    "hash": "#in-practice",
+    "headerBottom": 89,
+    "targetTop": 88.234375,
+    "viewport": 1440
+  },
+  {
+    "fonts": "loaded",
+    "hash": "#contact",
+    "headerBottom": 77,
+    "targetTop": 75.9296875,
+    "viewport": 768
+  }
+]

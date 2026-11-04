@@ -1,0 +1,72 @@
+1
+00:00:00,860 --> 00:00:05,613
+AI Moderator lets you design a live
+discussion around your learning goals.
+
+2
+00:00:05,746 --> 00:00:10,006
+You shape the activity and
+choose how AI supports it.
+
+3
+00:00:10,082 --> 00:00:14,514
+Select a shared moderation profile
+prepared by your administrator.
+
+4
+00:00:14,647 --> 00:00:18,861
+This sets the moderator’s
+approach, instructions and timing.
+
+5
+00:00:18,938 --> 00:00:21,924
+Give the dialogue a topic and a clear task.
+
+6
+00:00:22,057 --> 00:00:27,074
+Here, students compare nuclear power
+within a low-carbon electricity system.
+
+7
+00:00:27,151 --> 00:00:29,071
+Set the start and end times.
+
+8
+00:00:29,124 --> 00:00:32,168
+Choose the number of participants and groups.
+
+9
+00:00:32,244 --> 00:00:35,403
+Share an individual join code with each student.
+
+10
+00:00:35,490 --> 00:00:38,316
+Each code connects them to their group.
+
+11
+00:00:38,393 --> 00:00:42,641
+During the activity, view its
+status, groups and dialogue details.
+
+12
+00:00:42,774 --> 00:00:44,786
+You can end the dialogue when needed.
+
+13
+00:00:44,863 --> 00:00:48,722
+The moderator participates
+according to the selected profile.
+
+14
+00:00:48,911 --> 00:00:52,586
+Students can also request help
+in the shared conversation.
+
+15
+00:00:52,663 --> 00:00:54,974
+You set the educational context.
+
+16
+00:00:55,014 --> 00:00:58,460
+Students examine evidence and
+develop their conclusions.

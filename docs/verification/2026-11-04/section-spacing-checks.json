@@ -1,0 +1,129 @@
+{
+  "responsive": [
+    {
+      "pageWidth": 1440,
+      "sections": [
+        {
+          "labelOffset": 40,
+          "paddingTop": "40px",
+          "section": "approach"
+        },
+        {
+          "labelOffset": 41,
+          "paddingTop": "40px",
+          "section": "in-practice"
+        },
+        {
+          "labelOffset": 40,
+          "paddingTop": "40px",
+          "section": "collaboration"
+        },
+        {
+          "labelOffset": 41,
+          "paddingTop": "40px",
+          "section": "explore-section section"
+        },
+        {
+          "labelOffset": 40,
+          "paddingTop": "40px",
+          "section": "contact"
+        }
+      ],
+      "viewport": 1440
+    },
+    {
+      "pageWidth": 768,
+      "sections": [
+        {
+          "labelOffset": 32,
+          "paddingTop": "32px",
+          "section": "approach"
+        },
+        {
+          "labelOffset": 33,
+          "paddingTop": "32px",
+          "section": "in-practice"
+        },
+        {
+          "labelOffset": 32,
+          "paddingTop": "32px",
+          "section": "collaboration"
+        },
+        {
+          "labelOffset": 33,
+          "paddingTop": "32px",
+          "section": "explore-section section"
+        },
+        {
+          "labelOffset": 32,
+          "paddingTop": "32px",
+          "section": "contact"
+        }
+      ],
+      "viewport": 768
+    },
+    {
+      "pageWidth": 390,
+      "sections": [
+        {
+          "labelOffset": 28,
+          "paddingTop": "28px",
+          "section": "approach"
+        },
+        {
+          "labelOffset": 29,
+          "paddingTop": "28px",
+          "section": "in-practice"
+        },
+        {
+          "labelOffset": 28,
+          "paddingTop": "28px",
+          "section": "collaboration"
+        },
+        {
+          "labelOffset": 29,
+          "paddingTop": "28px",
+          "section": "explore-section section"
+        },
+        {
+          "labelOffset": 28,
+          "paddingTop": "28px",
+          "section": "contact"
+        }
+      ],
+      "viewport": 390
+    }
+  ],
+  "anchors": [
+    {
+      "hash": "#collaboration",
+      "headerBottom": 75,
+      "labelTop": 102.015625,
+      "targetTop": 74.015625,
+      "viewport": 390
+    },
+    {
+      "hash": "#in-practice",
+      "headerBottom": 77,
+      "labelTop": 109.0234375,
+      "targetTop": 76.0234375,
+      "viewport": 768
+    },
+    {
+      "hash": "#approach",
+      "headerBottom": 89,
+      "labelTop": 127.953125,
+      "targetTop": 87.953125,
+      "viewport": 1440
+    },
+    {
+      "hash": "#contact",
+      "headerBottom": 89,
+      "labelTop": 128.140625,
+      "targetTop": 88.140625,
+      "viewport": 1440
+    }
+  ],
+  "allAligned": true,
+  "consoleErrors": []
+}
